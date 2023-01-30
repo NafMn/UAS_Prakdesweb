@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas No 2 | Mohamad Nafis</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
+</head>
+
+<body class="bg-gray-200">
+
+    <body class="bg-gray-100 font-sans leading-normal tracking-normal">
+        <div class="flex flex-col md:flex-row items-stretch">
+            <div class="bg-gray-800 shadow-xl fixed bottom-0 md:relative h-100 z-10 w-full md:w-48">
+                <div id="menu"
+                    class="md:mt-12 md:w-48 md:fixed md:left-0 md:top-0 content-center md:content-center text-left justify-between">
+                    <img src="https://nafisdvlp.my.id/assets/profile1.png" alt="logo"
+                        class="hidden md:block h-16 mx-auto p-2 rounded-full bg-gray-600 ring-4 ring-gray-700">
+                    <ul class="list-reset flex flex-row md:flex-col py-0 md:py-3 px-1 md:px-2 text-center md:text-left">
+                        <li class="mr-3 flex-1">
+                            <a href="#intro" id="link-intro"
+                                class="menu-item block py-1 md:py-3 pl-1 align-middle text-gray-400 no-underline hover:text-white border-b-2 border-gray-800 hover:border-pink-500">
+                                <i class="far fa-handshake pr-0 md:pr-3"></i>
+                                <span class="pb-1 md:pb-0 text-xs md:text-base block md:inline-block">Intro</span>
+                            </a>
+                        </li>
+                        <li class="mr-3 flex-1">
+                            <a href="#skills" id="link-skills"
+                                class="menu-item block py-1 md:py-3 pl-1 align-middle text-gray-400 no-underline hover:text-white border-b-2 border-gray-800 hover:border-pink-500 active">
+                                <i class="fas fa-hammer pr-0 md:pr-3"></i>
+                                <span class="pb-1 md:pb-0 text-xs md:text-base block md:inline-block">Skills</span>
+                            </a>
+                        </li>
+                        <li class="mr-3 flex-1">
+                            <a href="#projects" id="link-projects"
+                                class="menu-item block py-1 md:py-3 pl-1 align-middle text-gray-400 no-underline hover:text-white border-b-2 border-gray-800 hover:border-pink-500">
+                                <i class="fas fa-tasks pr-0 md:pr-3"></i>
+                                <span class="pb-1 md:pb-0 text-xs md:text-base block md:inline-block">Projects</span>
+                            </a>
+                        </li>
+                        <li class="mr-3 flex-1">
+                            <a href="#experiences" id="link-experiences"
+                                class="menu-item block py-1 md:py-3 pl-1 align-middle text-gray-400 no-underline hover:text-white border-b-2 border-gray-800 hover:border-pink-500">
+                                <i class="fas fa-briefcase pr-0 md:pr-3"></i>
+                                <span class="pb-1 md:pb-0 text-xs md:text-base block md:inline-block">Experiences</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="main-content flex flex-col flex-1 bg-gray-100 pb-16 md:pb-0">
+                <!-- Perkenalan -->
+                <section id="intro" class="scrollspy bg-gray-50 w-full p-5 flex flex-col justify-center items-center">
+
+                    <img src="https://nafisdvlp.my.id/assets/profile1.png" alt=""
+                        class="rounded-full border-6 border-white shadow-md hover:shadow-xl ring-8 ring-gray-200"
+                        width="150" />
+                    <div class="text-center flex flex-col justify-between items-center space-y-6 py-6 md:p-10">
+                        <div class="relative">
+                            <h1 class="pt-1 text-5xl font-bold text-gray-800">
+                                Mohamad Nafis
+                            </h1>
+                            <h2 class="text-md">Software Developer | DevOps Engineer</h2>
+                            <i class="fas fa-map-marker-alt"></i> Blitar, Indonesia
+                            <div class="my-4 space-x-3">
+                                <a href="https://nafisdvlp.my.id"
+                                    class="bg-gradient-to-r from-blue-500 to-purple-500 rounded-full shadow-lg font-bold text-white px-4 py-2"
+                                    target="_blank">
+                                    <i class="fas fa-download"></i> Resume
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-md leading-relaxed text-gray-500">
+                            “I have just over a year of experience as a junior software engineer with Flex Technology.
+                            In my short time there, I've already contributed to over a dozen projects and assisted with
+                            managing one project for one of the firm's long-time clients."<br>
+                            “Prior to this role, I completed a one-year internship with Mobile First, where I honed my
+                            mobile app development skills. Ideally, I would like to continue to specialize in mobile
+                            software engineering, an area where I know your firm excels.”
+                        </div>
+                    </div>
+                </section>
+                <!-- Skills -->
+                <section id="skills" class="scrollspy bg-gray-100 p-10 text-gray-700 text-center">
+                    <div class="text-center uppercase text-3xl font-bold text-gray-600 pb-10">
+                        Skills
+                    </div>
+                    <div class="flex flex-col lg:w-1/2 mx-auto text-left space-y-2 text-lg">
+
+                        <div class="grid grid-cols-12">
+                            <i class="fas fa-network-wired text-gray-600 col-span-1"></i>
+                            <span class="col-span-5"> OOP</span>
+                            <div class="space-x-2 text-right col-span-6">
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="grid grid-cols-12">
+                            <i class="fab fa-js-square text-yellow-500 col-span-1"></i>
+                            <span class="col-span-5"> Javascript</span>
+                            <div class="space-x-2 text-right col-span-6">
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="far fa-dot-circle text-gray-600"></i>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-12">
+                            <i class="fab fa-node text-green-600 col-span-1"></i>
+                            <span class="col-span-5"> Tensorflow </span>
+                            <div class="space-x-2 text-right col-span-6">
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="far fa-dot-circle text-gray-600"></i>
+                                <i class="far fa-dot-circle text-gray-600"></i>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-12">
+                            <i class="fas fa-database text-gray-600 col-span-1"></i>
+                            <span class="col-span-5"> SQL</span>
+                            <div class="space-x-2 text-right col-span-6">
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="far fa-dot-circle text-gray-600"></i>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-12">
+                            <i class="fab fa-linux text-gray-600 font-bold col-span-1"></i>
+                            <span class="col-span-5"> Linux</span>
+                            <div class="space-x-2 text-right col-span-6">
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="far fa-dot-circle text-gray-600"></i>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-12">
+                            <i class="fas fa-user-cog text-gray-600 col-span-1"></i>
+                            <span class="col-span-5"> DevOps</span>
+                            <div class="space-x-2 text-right col-span-6">
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="fas fa-dot-circle text-gray-600"></i>
+                                <i class="far fa-dot-circle text-gray-600"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Projects -->
+                <section id="projects" class="scrollspy bg-gray-100 p-10 text-gray-700">
+                    <div class="text-center uppercase text-3xl font-bold text-gray-600 pb-10">
+                        Projects
+                    </div>
+                    <div class="grid grid-cols-1 lg:grid-cols-3 lg:px-20">
+                        <div class="text-left bg-white m-4 rounded-2xl shadow-md hover:shadow-xl">
+                            <div
+                                class="bg-gradient-to-tl from-blue-300  to-purple-300 h-24 p-4 rounded-t-lg text-center text-2xl text-gray-600 font-bold">
+                                <h3 class="text-2xl">Model NLP Tensorflow</h3>
+                                <p class="text-sm text-gray-500">
+                                    <a href="https://nafisdvlp.my.id" target="_blank">
+                                        <i class="fas fa-external-link-alt text-blue-400"></i>
+                                        Natural Language Processing
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="rounded-b-xl pb-4 px-4">
+                                <p class="my-5 text-gray-500">
+                                    salah satu metode yang bisa digunakan untuk menganalisis data dalam bentuk teks.
+                                    Metode ini mengangkat cara interaksi manusia untuk bisa diimplementasikan ke dalam
+                                    mesin.
+                                </p>
+                                <div class="flex flex-row flex-wrap justify-between items-center">
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Pandas
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Tensorflow
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Javascript
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Firebase
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Git
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Android
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-left bg-white m-4 rounded-2xl shadow-md hover:shadow-xl">
+                            <div
+                                class="bg-gradient-to-tl from-blue-300  to-purple-300 h-24 p-4 rounded-t-lg text-center text-2xl text-gray-600 font-bold">
+                                <h3 class="text-2xl">Image Clasification</h3>
+                                <p class="text-sm text-gray-500">
+                                    <a href="https://nafisdvlp.my.id" target="_blank">
+                                        <i class="fas fa-external-link-alt text-blue-400"></i>
+                                        Klasifikasi citra
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="rounded-b-xl pb-4 px-4">
+                                <p class="my-5 text-gray-500">
+                                    mengelompokkan objek berdasarkan class (kelas) tertentu. Sehingga kita dapat dengan
+                                    mudah mengenali objek.
+                                </p>
+                                <div class="flex flex-row flex-wrap justify-between items-center">
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Pandas
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Tensorflow
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Javascript
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Firebase
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Git
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Android
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-left bg-white m-4 rounded-2xl shadow-md hover:shadow-xl">
+                            <div
+                                class="bg-gradient-to-tl from-blue-300  to-purple-300 h-24 p-4 rounded-t-lg text-center text-2xl text-gray-600 font-bold">
+                                <h3 class="text-2xl">Time-Series-LSTM</h3>
+                                <p class="text-sm text-gray-500">
+                                    <a href="https://nafisdvlp.my.id" target="_blank">
+                                        <i class="fas fa-external-link-alt text-blue-400"></i>
+                                        Algoritma Long Short Term Memory
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="rounded-b-xl pb-4 px-4">
+                                <p class="my-5 text-gray-500">
+                                    salah satu jenis arsitektur dari Recurrent Neural Network (RNN) yang biasa digunakan
+                                    pada masalah-masalah yang berkaitan dengan deep learning..
+                                </p>
+                                <div class="flex flex-row flex-wrap justify-between items-center">
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Pandas
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Tensorflow
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Javascript
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Firebase
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Git
+                                    </div>
+                                    <div
+                                        class="text-xs font-bold lowercase px-3 m-1 py-1 bg-blue-100 text-blue-400 rounded-full">
+                                        Android
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Expriences -->
+                <section id="experiences" class="scrollspy bg-gray-50 p-10 text-gray-700">
+                    <div class="text-center uppercase text-3xl font-bold text-gray-600 pb-10">
+                        Experiences
+                    </div>
+                    <div class="md:flex justify-center text-center mx-auto">
+                        <div class="md:w-2/3">
+
+                            <!-- Experience -->
+                            <div class="relative text-left">
+                                <div class="flex items-center">
+                                    <div class="hidden md:block w-25">
+                                        <div class="md:flex flex-col items-end text-xs">
+                                            <div class="font-bold uppercase">Jan 2020</div>
+                                            <div>-</div>
+                                            <div class="font-bold uppercase">Feb 2021</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="relative ml-10 border-l-4 border-gray-500 pl-5 w-75">
+
+                                        <i class="fas fa-circle  absolute -left-3 -top-2"></i>
+
+                                        <div class="font-bold">Software Developer</div>
+                                        <div class="italic md:mb-4">Flex Dev</div>
+                                        <div class="mb-4 mt-2 md:hidden">
+                                            <div class="text-sm font-bold uppercase">Feb 2021</div>
+                                        </div>
+                                        <div class="mb-10">
+                                            Developed APIs for mobile application.<br>
+                                            Developed and maintained mobile application.<br>
+                                            Conﬁgured and maintained cloud server.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="justify-center text-center mx-auto">
+                    <div>
+                        <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
+                        <input
+                            class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                            type="text" placeholder="">
+                    </div>
+                    <div class="mt-8">
+                        <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
+                        <input
+                            class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                            type="text">
+                    </div>
+                    <div class="mt-8">
+                        <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
+                        <textarea
+                            class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                    </div>
+                    <div class="mt-8">
+                        <button
+                            class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+                            Send Message
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Footer -->
+                <section id="footer" class="w-full bg-gray-200">
+                    <div class="p-5 mx-auto text-md text-gray-500 text-center">
+                        Designed and developed by <span class="font-bold">Mohamad Nafis</span>
+                        <br>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </body>
+
+</html>
